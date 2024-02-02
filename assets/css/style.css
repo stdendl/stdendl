@@ -4,8 +4,55 @@ body{
   font-family: "Crimson Text", serif;
 }
 
+h1 a, a:hover, a:visited{
+    text-decoration: none;
+}
+
 .container-lg{
     max-width:1012px;
     margin-right:auto;
     margin-left:auto
   }
+
+.highlighter-rouge{
+  background-color: #2A2A2A;
+  color: #AEEAE6;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 15px;
+  padding-right: 5px;
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow-x: auto;
+}
+
+.k, .kt{
+  font-weight: bold;
+  color: chartreuse;
+}
+
+.o, .n, .nt, .nl{
+  color: #EEB100;
+}
+
+.na, .cp, .no{
+  color: #FE2E64;
+}
+
+.nb, .kc, .mi{
+  font-weight: bold;
+  color: #FE2E64;
+}
+
+.nc, .p{
+  font-weight: bold;
+  color: #AEEAE6;
+}
+
+.s, .nf, .s2, .dl{
+  color: #31DBE0;
+}
+
+.c1, .c, .c2{
+  color: #8A8A8A;
+} 
